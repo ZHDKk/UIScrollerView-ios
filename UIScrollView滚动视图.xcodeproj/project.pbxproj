@@ -15,6 +15,12 @@
 		F0A2A7C41F4C1F4E008031D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A7C21F4C1F4E008031D6 /* LaunchScreen.storyboard */; };
 		F0A2A7CF1F4C1F4F008031D6 /* UIScrollView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2A7CE1F4C1F4F008031D6 /* UIScrollView____Tests.m */; };
 		F0A2A7DA1F4C1F4F008031D6 /* UIScrollView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2A7D91F4C1F4F008031D6 /* UIScrollView____UITests.m */; };
+		F0A2A7F01F4C2577008031D6 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A7EA1F4C2577008031D6 /* 1.jpg */; };
+		F0A2A7F11F4C2577008031D6 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A7EB1F4C2577008031D6 /* 2.jpg */; };
+		F0A2A7F21F4C2577008031D6 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A7EC1F4C2577008031D6 /* 3.jpg */; };
+		F0A2A7F31F4C2577008031D6 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A7ED1F4C2577008031D6 /* 4.jpg */; };
+		F0A2A7F41F4C2577008031D6 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A7EE1F4C2577008031D6 /* 5.jpg */; };
+		F0A2A7F51F4C2577008031D6 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A7EF1F4C2577008031D6 /* 6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		F0A2A7D51F4C1F4F008031D6 /* UIScrollView滚动视图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollView滚动视图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A2A7D91F4C1F4F008031D6 /* UIScrollView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView____UITests.m"; sourceTree = "<group>"; };
 		F0A2A7DB1F4C1F4F008031D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A2A7EA1F4C2577008031D6 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		F0A2A7EB1F4C2577008031D6 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		F0A2A7EC1F4C2577008031D6 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		F0A2A7ED1F4C2577008031D6 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		F0A2A7EE1F4C2577008031D6 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		F0A2A7EF1F4C2577008031D6 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 		F0A2A7A81F4C1F4E008031D6 = {
 			isa = PBXGroup;
 			children = (
+				F0A2A7E91F4C2577008031D6 /* image */,
 				F0A2A7B31F4C1F4E008031D6 /* UIScrollView滚动视图 */,
 				F0A2A7CD1F4C1F4F008031D6 /* UIScrollView滚动视图Tests */,
 				F0A2A7D81F4C1F4F008031D6 /* UIScrollView滚动视图UITests */,
@@ -138,6 +151,19 @@
 				F0A2A7DB1F4C1F4F008031D6 /* Info.plist */,
 			);
 			path = "UIScrollView滚动视图UITests";
+			sourceTree = "<group>";
+		};
+		F0A2A7E91F4C2577008031D6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2A7EA1F4C2577008031D6 /* 1.jpg */,
+				F0A2A7EB1F4C2577008031D6 /* 2.jpg */,
+				F0A2A7EC1F4C2577008031D6 /* 3.jpg */,
+				F0A2A7ED1F4C2577008031D6 /* 4.jpg */,
+				F0A2A7EE1F4C2577008031D6 /* 5.jpg */,
+				F0A2A7EF1F4C2577008031D6 /* 6.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +272,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A2A7F51F4C2577008031D6 /* 6.jpg in Resources */,
 				F0A2A7C41F4C1F4E008031D6 /* LaunchScreen.storyboard in Resources */,
+				F0A2A7F41F4C2577008031D6 /* 5.jpg in Resources */,
+				F0A2A7F31F4C2577008031D6 /* 4.jpg in Resources */,
+				F0A2A7F01F4C2577008031D6 /* 1.jpg in Resources */,
+				F0A2A7F11F4C2577008031D6 /* 2.jpg in Resources */,
+				F0A2A7F21F4C2577008031D6 /* 3.jpg in Resources */,
 				F0A2A7C11F4C1F4E008031D6 /* Assets.xcassets in Resources */,
 				F0A2A7BF1F4C1F4E008031D6 /* Main.storyboard in Resources */,
 			);
